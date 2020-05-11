@@ -37,7 +37,7 @@ public class DashboardPage {
 	public void addContactData(String fullName, String companyName, String email, String phone, String address, String city, String state, String zip) {
 		//Select SEL_COUNTRY = new Select(COUNTRY);
 		WebDriverWait explicitWait = new WebDriverWait(driver, 30);	
-		explicitWait.until(ExpectedConditions.visibilityOf(FULL_NAME));
+		explicitWait.until(ExpectedConditions.visibilityOf(STATE));
 		FULL_NAME.sendKeys(fullName);
 		COMPANY.sendKeys(companyName);
 		EMAIL.sendKeys(email);
