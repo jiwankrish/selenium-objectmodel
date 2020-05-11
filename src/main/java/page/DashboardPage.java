@@ -1,11 +1,17 @@
 package page;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class DashboardPage {
+	WebDriver driver;
+	public DashboardPage(WebDriver driver) {
+		this.driver= driver;
+	}
 	@FindBy(how=How.XPATH, using= "//ul[@id='side-menu']/li[2]/a/span[1]") WebElement CRM;
 	@FindBy(how=How.XPATH, using= "//ul[@id='side-menu']/li[2]/ul/li[1]/a") WebElement ADD_CONTACT;
 	@FindBy(how=How.ID, using= "account") WebElement FULL_NAME;
@@ -30,6 +36,8 @@ public class DashboardPage {
 	
 	public void addContactData(String fullName, String companyName, String email, String phone, String address, String city, String state, String zip) {
 		//Select SEL_COUNTRY = new Select(COUNTRY);
+		WebDriverWait explicitWait = new WebDriverWait(driver, 30);	
+		explicitWait.until(ExpectedConditions.visibilityOf(FULL_NAME));
 		FULL_NAME.sendKeys(fullName);
 		COMPANY.sendKeys(companyName);
 		EMAIL.sendKeys(email);

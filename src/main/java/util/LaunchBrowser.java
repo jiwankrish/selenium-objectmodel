@@ -15,7 +15,4 @@ public class LaunchBrowser {
 		driver.manage().window().maximize();
 		return driver;		
 	}
-	public void expilictWait() {
-		WebDriverWait wait = new WebDriverWait(driver, 30);
-	}
 }
