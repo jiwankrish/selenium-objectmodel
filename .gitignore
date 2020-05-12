@@ -17,6 +17,9 @@ target/**
 */target/
 test-output/
 target/
+*/target/**
+target/classes/META-INF/MANIFEST.MF
+target/classes/META-INF/**
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
