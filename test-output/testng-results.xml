@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17222" started-at="2020-05-11T00:13:35 CDT" finished-at="2020-05-11T00:13:52 CDT">
+  <suite name="Default suite" duration-ms="23790" started-at="2020-05-11T19:43:20 CDT" finished-at="2020-05-11T19:43:44 CDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17222" started-at="2020-05-11T00:13:35 CDT" finished-at="2020-05-11T00:13:52 CDT">
+    <test name="Default test" duration-ms="23790" started-at="2020-05-11T19:43:20 CDT" finished-at="2020-05-11T19:43:44 CDT">
       <class name="test.LoginTest">
-        <test-method status="PASS" signature="startUp()[pri:0, instance:test.LoginTest@6c49835d]" name="startUp" is-config="true" duration-ms="10065" started-at="2020-05-11T00:13:35 CDT" finished-at="2020-05-11T00:13:45 CDT">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:test.LoginTest@6c49835d]" name="startUp" is-config="true" duration-ms="13598" started-at="2020-05-11T19:43:20 CDT" finished-at="2020-05-11T19:43:34 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="loginTest()[pri:1, instance:test.LoginTest@6c49835d]" name="loginTest" duration-ms="3175" started-at="2020-05-11T00:13:45 CDT" finished-at="2020-05-11T00:13:49 CDT">
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:test.LoginTest@6c49835d]" name="loginTest" duration-ms="4823" started-at="2020-05-11T19:43:34 CDT" finished-at="2020-05-11T19:43:39 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="addContact()[pri:2, instance:test.LoginTest@6c49835d]" name="addContact" duration-ms="3909" started-at="2020-05-11T00:13:49 CDT" finished-at="2020-05-11T00:13:52 CDT">
+        <test-method status="PASS" signature="addContact()[pri:2, instance:test.LoginTest@6c49835d]" name="addContact" duration-ms="5230" started-at="2020-05-11T19:43:39 CDT" finished-at="2020-05-11T19:43:44 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addContact -->
