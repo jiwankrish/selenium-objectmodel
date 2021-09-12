@@ -26,6 +26,7 @@ public class LoginTest {
 		login.enterUser("techfiosdemo@gmail.com");
 		login.enterPassword("abc123");
 		login.clikSignin();
+		System.out.println("Hello");
 	}
 	
 	@Test(priority=2)
@@ -35,4 +36,5 @@ public class LoginTest {
 		dashboard.clickAddContact();
 		dashboard.addContactData("Sharma", "Test1", "test00dd164745@gmail.com", "8356758976", "1425 Testing Dr", "Irving", "TX", "75060");
 	}
+	
 }
