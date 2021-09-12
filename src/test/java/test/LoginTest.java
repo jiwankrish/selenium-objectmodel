@@ -28,6 +28,7 @@ public class LoginTest {
 		login.clikSignin();
 		System.out.println("Hello");
 		System.out.println("Hi");
+		System.out.println("llo");
 	}
 	
 	@Test(priority=2)
