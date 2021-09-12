@@ -27,8 +27,7 @@ public class LoginTest {
 		login.enterPassword("abc123");
 		login.clikSignin();
 		System.out.println("Hello");
-		System.out.println("Hi");
-		System.out.println("llo");
+		System.out.println("Morning");
 	}
 	
 	@Test(priority=2)
